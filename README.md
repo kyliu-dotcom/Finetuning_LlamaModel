@@ -1,6 +1,21 @@
 # Unsloth Fine-Tuning Notebook
 
-This repository contains a notebook workflow for fine-tuning large language models with [Unsloth](https://github.com/unslothai/unsloth). It is intended for experimenting with efficient supervised fine-tuning using LoRA or QLoRA-style adapters.
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.13+-red)](https://pytorch.org/)
+[![Transformers](https://img.shields.io/badge/Transformers-Hugging%20Face-yellow)](https://huggingface.co/transformers/)
+
+**🤖 AI/ML Project | Large Language Model Fine-Tuning**
+
+This repository contains a notebook workflow for fine-tuning large language models with [Unsloth](https://github.com/unslothai/unsloth). It is intended for experimenting with efficient supervised fine-tuning of transformer-based models.
+
+## About This Project
+
+This is a **machine learning** project focused on:
+
+- **Large Language Models (LLMs)**: Leveraging pre-trained transformer models like Llama
+- **Parameter-Efficient Fine-Tuning**: Using LoRA (Low-Rank Adaptation) to reduce training memory and compute
+- **Supervised Learning**: Training models on instruction/response datasets
+- **Transfer Learning**: Adapting general-purpose models to specific domains
 
 ## Overview
 
@@ -27,6 +42,14 @@ Common dependencies include:
 - Accelerate
 - Unsloth
 - Jupyter Notebook or JupyterLab
+
+## Technologies
+
+- **Deep Learning Framework**: [PyTorch](https://pytorch.org/)
+- **NLP Library**: [Hugging Face Transformers](https://huggingface.co/transformers/)
+- **Model Training**: [TRL (Transformers Reinforcement Learning)](https://huggingface.co/docs/trl/)
+- **Parameter-Efficient Fine-Tuning**: [PEFT](https://huggingface.co/docs/peft/)
+- **Optimization Library**: [Unsloth](https://github.com/unslothai/unsloth)
 
 ## Installation
 
