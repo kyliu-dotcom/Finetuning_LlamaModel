@@ -1,9 +1,5 @@
 # Unsloth Fine-Tuning Notebook
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.13+-red)](https://pytorch.org/)
-[![Transformers](https://img.shields.io/badge/Transformers-Hugging%20Face-yellow)](https://huggingface.co/transformers/)
-
 **🤖 AI/ML Project | Large Language Model Fine-Tuning**
 
 This repository contains a notebook workflow for fine-tuning large language models with [Unsloth](https://github.com/unslothai/unsloth). It is intended for experimenting with efficient supervised fine-tuning of transformer-based models.
@@ -34,22 +30,14 @@ Use a Python environment with GPU support when possible. A CUDA-capable GPU is s
 Common dependencies include:
 
 - Python 3.10+
-- PyTorch
-- Transformers
+- PyTorch 1.13+
+- Transformers (Hugging Face)
 - Datasets
-- TRL
-- PEFT
+- TRL (Transformers Reinforcement Learning)
+- PEFT (Parameter-Efficient Fine-Tuning)
 - Accelerate
 - Unsloth
 - Jupyter Notebook or JupyterLab
-
-## Technologies
-
-- **Deep Learning Framework**: [PyTorch](https://pytorch.org/)
-- **NLP Library**: [Hugging Face Transformers](https://huggingface.co/transformers/)
-- **Model Training**: [TRL (Transformers Reinforcement Learning)](https://huggingface.co/docs/trl/)
-- **Parameter-Efficient Fine-Tuning**: [PEFT](https://huggingface.co/docs/peft/)
-- **Optimization Library**: [Unsloth](https://github.com/unslothai/unsloth)
 
 ## Installation
 
